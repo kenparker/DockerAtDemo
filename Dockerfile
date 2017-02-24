@@ -1,2 +1,2 @@
 FROM airhacks/payara
-COPY ./target/DockerAtDemo.war ${DEPLOYMENT_DIR}
+COPY ./DockerAtDemo.war ${DEPLOYMENT_DIR}
