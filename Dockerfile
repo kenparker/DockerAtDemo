@@ -1,5 +1,3 @@
 FROM airhacks/payara
 COPY ./DockerAtDemo.war ${DEPLOYMENT_DIR}
-EXPOSE 8080
 EXPOSE 8181
-EXPOSE 8009
