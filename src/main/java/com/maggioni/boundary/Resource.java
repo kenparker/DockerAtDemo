@@ -11,6 +11,7 @@ public class Resource {
 
     @GET
     public String elastic() {
-        return "demo";
+        System.out.println("test log");
+        return "demo OK";
     }
 }
