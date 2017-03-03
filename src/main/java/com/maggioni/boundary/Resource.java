@@ -5,7 +5,7 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 
 @Stateless
-@Path("dockerDemo")
+@Path("/dockerDemo")
 
 public class Resource {
 
