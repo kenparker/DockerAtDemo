@@ -1,3 +1,3 @@
 FROM airhacks/payara
-COPY ./DockerAtDemo.war ${DEPLOYMENT_DIR}
+COPY ./target/DockerAtDemo.war ${DEPLOYMENT_DIR}
 EXPOSE 8181
