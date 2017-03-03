@@ -1,2 +1,2 @@
-FROM airhacks/payara
-COPY ./target/DockerAtDemo.war ${DEPLOYMENT_DIR}
+FROM jboss/wildfly
+ADD ./target/DockerAtDemo.war /opt/jboss/wildfly/standalone/deployments/
